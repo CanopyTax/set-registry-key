@@ -1,4 +1,4 @@
-declare module "set-registry-key" {
+declare module "@canopytax/set-registry-key" {
   export function setRegistryKey(
     subkey: string,
     valueName: string,

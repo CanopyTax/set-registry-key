@@ -1,6 +1,6 @@
 {
   "name": "@canopytax/set-registry-key",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "types": "src/set-registry-key.d.ts",
   "main": "build/Release/native.node",
   "packageManager": "yarn@4.0.2",
