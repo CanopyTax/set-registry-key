@@ -2,7 +2,11 @@
   "targets": [
     {
       "target_name": "native",
-      "sources": [ "src/set-registry-key.cc" ]
+      "conditions": [
+        ["'os'=='win'", {
+          "sources": [ "src/set-registry-key.cc" ],
+        }]
+      ]
     }
   ]
 }

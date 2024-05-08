@@ -5,6 +5,14 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@canopytax/set-registry-key@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@canopytax/set-registry-key@workspace:."
+  dependencies:
+    node-gyp: "npm:^10.0.1"
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -641,14 +649,6 @@ __metadata:
   checksum: 5160b06975a38b11c1ab55950cb5b8a23db78df88275d3d8a42ccf1f29e55112ac995b3a26a522c36e3b5f76b0445f1eef70d696b8c7862a2b4303d7b0e7609e
   languageName: node
   linkType: hard
-
-"set-registry-key@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "set-registry-key@workspace:."
-  dependencies:
-    node-gyp: "npm:^10.0.1"
-  languageName: unknown
-  linkType: soft
 
 "shebang-command@npm:^2.0.0":
   version: 2.0.0
